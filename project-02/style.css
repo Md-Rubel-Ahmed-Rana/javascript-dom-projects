@@ -1,0 +1,25 @@
+
+div{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 50px 20px;
+    width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: white;
+}
+input, button{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#update-text{
+    background-color: aqua;
+    width: 70%;
+    padding: 10px;
+    margin: 15px auto;
+    font-size: 25px;
+    color: red;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
