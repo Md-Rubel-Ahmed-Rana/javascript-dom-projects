@@ -1,0 +1,44 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    background-color: forestgreen;
+    padding: 50px;
+    height: 100vh;
+}
+
+div:first-child{
+    background-color: aquamarine;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+div:last-child{
+    background-color: aquamarine;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+textarea{
+    font-size: 20px;
+    width: 90%;
+}
+
+div:last-child > button{
+    background-color: red;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
