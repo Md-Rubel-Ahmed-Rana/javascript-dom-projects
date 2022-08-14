@@ -22,10 +22,14 @@ function time(){
         getMinute.innerHTML = "0" + minutes;
     }
 
-    if(hours < 12) {
-        getHour.innerHTML = 12;
+    if(hours < 10) {
+        getHour.innerHTML = "0" + hours;
         timeFormat.innerHTML = "AM";
-    } else if(hours > 12) {
+    } else{
+        getHour.innerHTML = hours;
+    }
+
+    if(hours > 12) {
         hours = hours - 12;
         timeFormat.innerHTML = "PM";
     }
