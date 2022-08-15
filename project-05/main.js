@@ -24,15 +24,16 @@ function time(){
 
     if(hours < 10) {
         getHour.innerHTML = "0" + hours;
-    } else{
+    } else if(hours > 12){
+        hours = hours - 12;
         getHour.innerHTML = hours;
         timeFormat.innerHTML = "PM";
+        getHour.innerHTML = "0" + hours
     }
 
-    if(hours > 12) {
-        hours = hours - 12;
-        timeFormat.innerHTML = "PM";
-    }
+    // if(hours > 12) {
+        
+    // }
     return getTime
 }
 setInterval(() => {
