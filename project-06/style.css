@@ -33,6 +33,9 @@ div > input{
     padding: 10px;
     margin-top: 10px;
     font-size: 25px;
+    color: white;
+    background-color: black;
+
 }
 div  > button{
     background-color: blue;

@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#calculator{
+    background-color: pink;
+    width: 450px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#keys{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 10px;
+    background-color: violet;
+    border-radius: 10px;
+}
+
+#span{
+    background-color: blue;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #00000090;
+    cursor: pointer;
+}
+span{
+    background-color: blue;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #00000090;
+    cursor: pointer;
+}
+
+
+div > h1{
+    color: red;
+    font-size: 45px;
+    margin: 0;
+}
+#input-field{
+    padding: 10px;
+    width: 95%;
+    outline: none;
+    margin-bottom: 20px;
+}

@@ -24,9 +24,9 @@ function time(){
 
     if(hours < 10) {
         getHour.innerHTML = "0" + hours;
-        timeFormat.innerHTML = "AM";
     } else{
         getHour.innerHTML = hours;
+        timeFormat.innerHTML = "PM";
     }
 
     if(hours > 12) {
