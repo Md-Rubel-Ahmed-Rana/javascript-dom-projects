@@ -1,39 +1,34 @@
 
-const inputField = document.getElementById("input-task");
-const addTask = document.getElementById("add-task");
+const taskBtn = document.getElementById("task-btn")
+taskBtn.addEventListener("click", () => {
+    const inCompleteUl = document.getElementById("incompleted");
+    const taskField = document.getElementById("add-task");
+    const newTask = taskField.value;
 
 
-addTask.addEventListener("click", () => {
-    const newTask = inputField.value;
-    const inCompletedTask = document.getElementById("incompleted");
-    const newLabel = document.createElement("label");
-    const LabelInput = document.createElement("input");
-    LabelInput.type = "checkbox";
-    const LabelList = document.createElement("li");
+    // create needed tag
+    const checkBox = document.createElement("input");
+    checkBox.type = "checkbox"
+    const label = document.createElement("label");
+    label.innerText = newTask;
+    const listItem = document.createElement("li");
+    listItem.appendChild(checkBox);
+    listItem.appendChild(label);
 
-    // adding label to ul tag
-    inCompletedTask.appendChild(newLabel);
-    // adding lis and input to the label tag
-
-    newLabel.appendChild(LabelInput)
-    newLabel.appendChild(LabelList);
-
-    // adding given text to the li 
-    LabelList.innerText = newTask
-    inputField.value = "";
-});
-
-
-//=====================
-const getCheckBox = document.getElementById("do-complete");
-
-
-
-getCheckBox.addEventListener("click", () => {
-    const doComplted = document.getElementById("do-complete").parentNode;
-    const compltedLi = document.getElementById("completed");
-    compltedLi.appendChild(doComplted);
+    inCompleteUl.appendChild(listItem)
 })
 
 
+const checkBox = document.getElementById("check-box");
 
+checkBox.addEventListener("click", function()  {
+    const completedUl = document.getElementById("completed");
+
+    const listItem = checkBox.parentNode.parentNode;
+
+    listItem.removeChild(listItem);
+    
+
+
+
+})

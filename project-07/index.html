@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do-App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="./style.css">
 <body>
     
-    <div id="task-form">
-        <h1>To-Do-App</h1>
-        <hr>
-        <input id="input-task" type="text">
-        <button id="add-task">Add Task</button>
-
-        <div id="task-box">
+<header>
+    <h1>TO-DO-APP</h1>
+</header>
+<main>
+    <section id="input-field">
+        <input type="text" name="" id="add-task">
+        <button id="task-btn">Add Task</button>
+    </section>
+    <section id="task-box">
+        <div class="divider">
+            <h2>Incomplete Task</h2>
             <ul id="incompleted">
-                <h2>Incompleted Task</h2>
-                <label for="">
-                    <input id="do-complete" type="checkbox" name="" id="">
-                    <li>New Task</li>
-                </label>
-            </ul>
-            <ul id="completed">
-                <h2>Completed Task</h2>
-                <label for="">
-                    <input type="checkbox" name="" id="">
-                    <li>New Task</li>
-                </label> 
+                <li>
+                    <input type="checkbox" name="" id="check-box">
+                    <label for="">New Task</label>
+                </li>
             </ul>
         </div>
-    </div>
-
+        <div class="divider">
+            <h2>Complete Task</h2>
+            <ul id="completed">
+                <li>
+                    <label for="">New Task</label>
+                    <button>Delete</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
     <script src="./main.js"></script>
 </body>
 </html>

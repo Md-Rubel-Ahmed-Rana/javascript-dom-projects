@@ -1,0 +1,49 @@
+
+#calc-body{
+    background-color: blue;
+    width: 220px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    color: white;
+    margin: 0;
+}
+
+input{
+    background-color: white;
+    width: 95%;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    text-align: right;
+    padding: 5px 0px;
+}
+.result{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 15px #00000085;
+    border-radius: 5px;
+}
