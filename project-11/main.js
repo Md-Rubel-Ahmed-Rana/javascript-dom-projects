@@ -7,10 +7,11 @@ let count = 0;
 const nextImage = () => {
     count++
     const imageTag = document.getElementById("image-element");
-    imageTag.src = images[count]
-    if (count >= 8) {
+    console.log(count);
+    if (count > 8) {
         count = 0;
     }
+    imageTag.src = images[count]
 }
 
 const prevImage = () => {
@@ -20,4 +21,5 @@ const prevImage = () => {
         count = 8
     }
     imageTag.src = images[count]
+    console.log(count);
 }
