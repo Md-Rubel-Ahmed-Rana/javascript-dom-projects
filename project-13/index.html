@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <title>My Video</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a79b1fce5e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="video-header">
+                <h2>My Videos</h2>
+                <video id="video-file" controls autoplay src=""></video>
+            </div>
+            <div class="buttons">
+                <button id="play-prev" >
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+                <button id="pause">
+                    <i id="play-pause" class="fa-solid fa-pause"></i>
+                </button>
+                <button id="play-next" >
+                    <i class="fa-solid fa-forward-step"></i>
+                </button>
+            </div>
+            <div class="video-info">
+                <h3>Song: <span id="song-name"></span></h3>
+                <h3>Singer: <span id="singer-name"></span></h3>
+                <h3>Developer: <span id="developer"></span></h3>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

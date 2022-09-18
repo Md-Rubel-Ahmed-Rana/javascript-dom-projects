@@ -1,0 +1,67 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "videoFile": "./videos/video-1.mp4",
+            "videoName": "Ami chaina bachte",
+            "singer": "Abu Rayhan & Mahfuj",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 2,
+            "videoFile": "./videos/video-2.mp4",
+            "videoName": "Khudase bikile kar ham",
+            "singer": "Mujahidul Islam Bulbul",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 3,
+            "videoFile": "./videos/video-3.mp4",
+            "videoName": "Manusher moto manush",
+            "singer": "Marjan Ahmod Ruhi",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 4,
+            "videoFile": "./videos/video-4.mp4",
+            "videoName": "Ogo maaaa",
+            "singer": "Sadman Sakib",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 5,
+            "videoFile": "./videos/video-5.mp4",
+            "videoName": "Kalima nosib more dio",
+            "singer": "kalarab Team",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 6,
+            "videoFile": "./videos/video-6.mp4",
+            "videoName": "Mawla Mawla Mawla",
+            "singer": "Mujahidul Islam Bulbul",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 7,
+            "videoFile": "./videos/video-7.mp4",
+            "videoName": "Ami dekini tumai",
+            "singer": "kalarab Team",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 8,
+            "videoFile": "./videos/video-8.mp4",
+            "videoName": "Salatullah Salamullah",
+            "singer": "Ashraf Bin Ahmed",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 9,
+            "videoFile": "./videos/video-9.mp4",
+            "videoName": "Ridoy maje mala gati",
+            "singer": "Mahfuj and Others",
+            "developer": "Md Rubel Ahmed Rana"
+        }
+    ]
+}

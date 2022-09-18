@@ -1,0 +1,70 @@
+{
+    "audios":[
+        {
+            "id": 1,
+            "audioFile": "./audios/audio-1.mp3",
+            "fileName": "Aj-keno-prithibi",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 2,
+            "audioFile": "./audios/audio-2.mp3",
+            "fileName": "Juratka nam",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 3,
+            "audioFile": "./audios/audio-3.mp3",
+            "fileName": "Makki Madani",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 4,
+            "audioFile": "./audios/audio-4.mp3",
+            "fileName": "Nur Nabi asheche",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 5,
+            "audioFile": "./audios/audio-5.mp3",
+            "fileName": "Sunar Madina",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 6,
+            "audioFile": "./audios/audio-6.mp3",
+            "fileName": "Ruj behane akta pakhi",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 7,
+            "audioFile": "./audios/audio-7.mp3",
+            "fileName": "Shamsudduha Assalam",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 8,
+            "audioFile": "./audios/audio-8.mp3",
+            "fileName": "Ashukna joto badha",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 9,
+            "audioFile": "./audios/audio-9.mp3",
+            "fileName": "Ajaner shur shune pakhira dake",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 10,
+            "audioFile": "./audios/audio-10.mp3",
+            "fileName": "Tumhara nam",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 11,
+            "audioFile": "./audios/audio-11.mp3",
+            "fileName": "Kamli Walar deshe jabo",
+            "developer": "Md Rubel Ahmed Rana"
+        }
+    ]
+}
